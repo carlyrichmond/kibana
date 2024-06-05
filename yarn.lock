@@ -7994,12 +7994,12 @@
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
-"@redocly/cli@^1.12.0":
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/@redocly/cli/-/cli-1.12.0.tgz#c2191e2d34161cdaf1fcb42d896fd4c5e3313ac8"
-  integrity sha512-k45WELRAvE0UbYPhEhUPq/T4WOCDx4zoCT3tLokCdnCyeUHgaDzNAzPM2qe5Y8m8k5FUYlNoPdND4PlvUhg9Wg==
+"@redocly/cli@^1.14.0":
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/@redocly/cli/-/cli-1.14.0.tgz#17bfe1499715b957cec5b16e06c463a86e49f0b4"
+  integrity sha512-GCvJeuZL/JbEOvuCbAav8m1YezzzrJ/rLJWk2WzPYw2YAAdZMjSEQGpiZeVfZTZLV8ntwkUfNFzsET3I2x6TPg==
   dependencies:
-    "@redocly/openapi-core" "1.12.0"
+    "@redocly/openapi-core" "1.14.0"
     abort-controller "^3.0.0"
     chokidar "^3.5.1"
     colorette "^1.2.0"
@@ -8023,7 +8023,28 @@
   resolved "https://registry.yarnpkg.com/@redocly/config/-/config-0.2.0.tgz#c61fd0a8ccac330de398e26e8cac1a3fedbf9165"
   integrity sha512-r0TqTPVXrxdvhpbOntWnJofOx0rC7u+A+tfC0KFwMtw38QCNb3pwodVjeLa7MT5Uu+fcPxfO119yLBj0QHvBuQ==
 
-"@redocly/openapi-core@1.12.0", "@redocly/openapi-core@^1.0.0-rc.2":
+"@redocly/config@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@redocly/config/-/config-0.5.0.tgz#3ba2585f10d7039b85d7604d0e17f4d091d424c2"
+  integrity sha512-oA1ezWPT2tSV9CLk0FtZlViaFKtp+id3iAVeKBme1DdP4xUCdxEdP8umB21iLKdc6leRd5uGa+T5Ox4nHBAXWg==
+
+"@redocly/openapi-core@1.14.0":
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/@redocly/openapi-core/-/openapi-core-1.14.0.tgz#74f9daf95f835563d458ce02644f0ad0cd519211"
+  integrity sha512-sraF4PGVcc6t6CaYw5raO/GWeOaa6UjcEvH/+Qm7zp+q/fbWAMwbj+1QzaNvpMspCwF+xW6TddDcnXrCDmqYVA==
+  dependencies:
+    "@redocly/ajv" "^8.11.0"
+    "@redocly/config" "^0.5.0"
+    colorette "^1.2.0"
+    js-levenshtein "^1.1.6"
+    js-yaml "^4.1.0"
+    lodash.isequal "^4.5.0"
+    minimatch "^5.0.1"
+    node-fetch "^2.6.1"
+    pluralize "^8.0.0"
+    yaml-ast-parser "0.0.43"
+
+"@redocly/openapi-core@^1.0.0-rc.2":
   version "1.12.0"
   resolved "https://registry.yarnpkg.com/@redocly/openapi-core/-/openapi-core-1.12.0.tgz#82047a92a138362c7f411046d855fdcde3a946b8"
   integrity sha512-2Jfxv3iIk1JUwLSnLyewJ8GAsoxubROVieg13Sjo79TjuWaUBuI49j8GZqC08ljENqyEIp0JHReDjhKs4Snrhg==
